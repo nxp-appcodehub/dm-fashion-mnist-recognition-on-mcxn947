@@ -94,7 +94,9 @@ Build the project, after compile complete, flash the board.
 
 ## 4. Results <a name="step4"></a>
 
-Reset the board, showing a bag picture to the camera, in the bottom of the LCD showing the type of the object: 'bag'.
+Reset the board, the preview of camera is showing in the top of LCD (if the preview is blank it's because of the voltage mismatch between Camera module and FRDM board, please reset the board).
+
+Show a bag picture (print the image on a paper or use you mobilephone display the test image) to the camera, the type of object is showing at the bottom of the LCD.
 
 ![](image/running_result.jpg)
 
