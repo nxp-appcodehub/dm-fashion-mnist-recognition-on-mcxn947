@@ -94,9 +94,21 @@ Build the project, after compile complete, flash the board.
 
 ## 4. Results <a name="step4"></a>
 
+### Prepare test pictures
+
+The model was trained on MNIST Fashion dateset to fashion accesories:"T-shirt", "trouser", "pullover", "dress", "coat", "sandal", "shirt", "sneaker", "bag", "ankle boot".
+
+Search images for "fashion mnist ankle boot" on google, bing or baidu, print the images onto A4 paper and cut into cards shown as:
+
+![](image/test_cards.png)
+
+Or download the test images into mobile device.
+
+### Run
+
 Reset the board, the preview of camera is showing in the top of LCD (if the preview is blank it's because of the voltage mismatch between Camera module and FRDM board, please reset the board).
 
-Show a bag picture (print the image on a paper or use you mobilephone display the test image) to the camera, the type of object is showing at the bottom of the LCD.
+Present the cards or your mobile device to the camera, ensuring that the image is centered in the preview window. The type of object will then be displayed at the bottom of the LCD screen.
 
 ![](image/running_result.jpg)
 
