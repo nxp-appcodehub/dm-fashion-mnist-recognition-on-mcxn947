@@ -5,7 +5,7 @@
  * Generated linker script file for MCXN947
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v11.9.0_prc2 [Build 2107] [2023-11-24] on Jan 26, 2024, 10:03:20 AM
+ * MCUXpresso IDE v11.9.0_prc2 [Build 2107] [2023-11-24] on Apr 11, 2024, 3:37:03 PM
  */
 
 INCLUDE "frdmmcxn947_fashion_mnist_recognition_Release_library.ld"
