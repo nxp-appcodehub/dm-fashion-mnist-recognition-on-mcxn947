@@ -114,7 +114,7 @@ void ezh_camera_display_callback(void)
 		camera_buffer_addr = (uint32_t)(&g_camera_ping_pong_buffer[CAMERA_WIDTH*STRIPE_HEIGHT]);
 	}
 
-	convert_384_384_to_192_192((uint32_t)(camera_buffer_addr), g_camera_display_buffer, STRIPE_HEIGHT, CAMERA_WIDTH);
+	convert_384_384_to_192_192((uint16_t *)(camera_buffer_addr), g_camera_display_buffer, STRIPE_HEIGHT, CAMERA_WIDTH);
 	display_show_slice(p_coord_index, (uint32_t)(g_camera_display_buffer),CAMERA_HEIGHT/STRIPE_HEIGHT);
 
 	ezh_copy_slice_to_model_input(p_coord_index,(uint32_t)(g_camera_display_buffer),LCD_BUFF_WIDTH,LCD_BUFF_HEIGHT, CAMERA_HEIGHT/STRIPE_HEIGHT);
